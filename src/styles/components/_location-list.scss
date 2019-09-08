@@ -1,0 +1,37 @@
+.favorite-location-list-cmp {
+    ul {
+
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+        // justify-content: space-evenly;
+
+        .location-preview-cmp {
+            background-color: $color5;
+            width: 100vw;
+            margin-top: 7px;
+            color: $color1;
+            min-height: 100px;
+            margin-left: 5px;
+
+
+            @media(min-width: '700px') {
+                width: 17.5vh;
+                height: 17.5vh;
+                margin: 5px; 
+            }
+
+            .preview-title {
+                font-family: $font2;
+                margin-bottom: 5px;
+            }
+
+            .preview-icon{
+                height: 50px;
+            }
+            .plus {
+                font-size: 3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.weather-list-cmp {
+    ul {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        // justify-content: space-evenly;
+
+        .weather-preview-cmp {
+            background-color: $color5;
+            width: 100vw;
+            margin-top: 7px;
+            color: $color1;
+            
+            @media(min-width: '700px') {
+                width: 19.5vw;
+                height: 25vh;
+                margin: 5px; 
+            }
+
+            
+            .weather-date {
+                font-family: $font2;
+                margin-bottom: 5px;
+            }
+        }
+
+        @media(min-width: '700px') {
+            flex-direction: row;
+        }
+    }
+}

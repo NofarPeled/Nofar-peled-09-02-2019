@@ -1,0 +1,35 @@
+.search-cmp {
+    flex-direction: column;
+    .location-filter-cmp {
+        background-color: $color2;
+        padding: 10px;
+        form {
+            width: 100vw;
+            input {
+                padding: 10px;
+                border-radius: 5px;
+                width: 70%;
+                border: none;
+                margin-right: 10px;
+            }
+        }
+    }
+    .search-suggestion-cmp{
+       .suggestions-list {
+            text-align: center;
+
+           &:first-child {
+               border-top: 1px solid rgb(192, 192, 192);
+           }
+
+           & > * {
+            padding: 10px;
+            margin: 0;
+            border-bottom: 1px solid $color3;
+            background-color: #E0E0E0;
+           }
+       } 
+    }
+
+
+}
