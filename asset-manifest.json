@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css",
+    "main.js": "/Nofar-peled-09-02-2019/static/js/main.999b4d27.chunk.js",
+    "main.js.map": "/Nofar-peled-09-02-2019/static/js/main.999b4d27.chunk.js.map",
+    "runtime~main.js": "/Nofar-peled-09-02-2019/static/js/runtime~main.ecdd918c.js",
+    "runtime~main.js.map": "/Nofar-peled-09-02-2019/static/js/runtime~main.ecdd918c.js.map",
+    "static/js/2.c32d8397.chunk.js": "/Nofar-peled-09-02-2019/static/js/2.c32d8397.chunk.js",
+    "static/js/2.c32d8397.chunk.js.map": "/Nofar-peled-09-02-2019/static/js/2.c32d8397.chunk.js.map",
+    "index.html": "/Nofar-peled-09-02-2019/index.html",
+    "precache-manifest.2859ff93b89938b049c2b956f07db991.js": "/Nofar-peled-09-02-2019/precache-manifest.2859ff93b89938b049c2b956f07db991.js",
+    "service-worker.js": "/Nofar-peled-09-02-2019/service-worker.js",
+    "static/css/main.377cbac6.chunk.css.map": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css.map",
+    "static/media/global.scss": "/Nofar-peled-09-02-2019/static/media/PoiretOne-Regular.c57e537a.ttf",
+    "static/media/favorite.svg": "/Nofar-peled-09-02-2019/static/media/favorite.d654ce19.svg",
+    "static/media/logo.png": "/Nofar-peled-09-02-2019/static/media/logo.9a7115fb.png",
+    "static/media/not-favorite.svg": "/Nofar-peled-09-02-2019/static/media/not-favorite.9d53d97b.svg",
+    "static/media/weather-page-wallpaper.jpg": "/Nofar-peled-09-02-2019/static/media/weather-page-wallpaper.e80ecd75.jpg"
+  }
+}
