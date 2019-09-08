@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c58e10e8d85fa27d11d5b55b1075cbe",
+    "revision": "0a56407fe40f9cfd87ba75996af85f0a",
     "url": "/Nofar-peled-09-02-2019/index.html"
   },
   {
-    "revision": "69f432d919ccba1e437a",
+    "revision": "5f4628816ef442cdcb50",
     "url": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css"
   },
   {
-    "revision": "204d69f2030d63a08ac0",
-    "url": "/Nofar-peled-09-02-2019/static/js/2.c32d8397.chunk.js"
+    "revision": "2a29490e05ba92dcbc29",
+    "url": "/Nofar-peled-09-02-2019/static/js/2.cd526bfe.chunk.js"
   },
   {
-    "revision": "69f432d919ccba1e437a",
-    "url": "/Nofar-peled-09-02-2019/static/js/main.999b4d27.chunk.js"
+    "revision": "5f4628816ef442cdcb50",
+    "url": "/Nofar-peled-09-02-2019/static/js/main.4f807766.chunk.js"
   },
   {
     "revision": "4e497cbb1f0b14923cf8",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Nofar-peled-09-02-2019/static/media/PoiretOne-Regular.c57e537a.ttf"
   },
   {
-    "revision": "d654ce194e0660d047d6913124f8d562",
-    "url": "/Nofar-peled-09-02-2019/static/media/favorite.d654ce19.svg"
+    "revision": "40ec0999fc5e53e9711c2e6416c8fd77",
+    "url": "/Nofar-peled-09-02-2019/static/media/favorite.40ec0999.svg"
   },
   {
     "revision": "9a7115fb09b43dac9f4b92b4430a12d3",
     "url": "/Nofar-peled-09-02-2019/static/media/logo.9a7115fb.png"
   },
   {
-    "revision": "9d53d97bb11e5a9b3b6014b0f1d6e46e",
-    "url": "/Nofar-peled-09-02-2019/static/media/not-favorite.9d53d97b.svg"
+    "revision": "977886e4a565b9ae5c1dbcbd2620c6d2",
+    "url": "/Nofar-peled-09-02-2019/static/media/not-favorite.977886e4.svg"
   },
   {
     "revision": "e80ecd75d2d5001172e1c9b422a7929d",
