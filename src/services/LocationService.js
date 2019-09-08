@@ -83,7 +83,7 @@ async function isFavoriteLocation(locationName) {
 
 async function getLocationsSuggest(txt) {
     try {
-        const suggestions = await axios.get(`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${API_KEY}&q=${txt}&language=en`)
+        const suggestions = await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${API_KEY}&q=${txt}&language=en`)
         
         if (!suggestions.data.length) return []
 
@@ -97,7 +97,7 @@ async function getLocationsSuggest(txt) {
 
 async function getLocationInfo(locationName) {
     try {
-        return await axios.get(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}=${locationName.replace(/ /g,"%20")}`)
+        return await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}=${locationName.replace(/ /g,"%20")}`)
     } catch (err) {
         throw err
     }
