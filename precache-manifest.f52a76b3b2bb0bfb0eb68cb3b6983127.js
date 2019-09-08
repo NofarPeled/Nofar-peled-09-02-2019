@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "208440ee58f2d01692774cba1bbd26b2",
+    "revision": "3295e58d5b8dcd6de87e634e073c15d7",
     "url": "/Nofar-peled-09-02-2019/index.html"
   },
   {
-    "revision": "2f8f34d3fc555dddd07e",
+    "revision": "6a5811a7f40afc23a59d",
     "url": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Nofar-peled-09-02-2019/static/js/2.9d180777.chunk.js"
   },
   {
-    "revision": "2f8f34d3fc555dddd07e",
-    "url": "/Nofar-peled-09-02-2019/static/js/main.f116184a.chunk.js"
+    "revision": "6a5811a7f40afc23a59d",
+    "url": "/Nofar-peled-09-02-2019/static/js/main.0cfb084e.chunk.js"
   },
   {
     "revision": "4e497cbb1f0b14923cf8",
