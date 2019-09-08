@@ -22,7 +22,7 @@ class WeatherDetails extends Component {
             <section className = "weather-details-cmp">
                 <div className = "weather-details-header">
                     <img 
-                        src = { require(`../assets/${weather.isFavorite ? 'favorite' : 'not-favorite'}.svg`)} 
+                        src = { require(`../assets/${weather.isFavorite ? 'favorite' : 'not-favorite'}.png`)} 
                         onClick = {this.toggleFavorite} 
                         className = "favorite-btn"
                         alt = ""
