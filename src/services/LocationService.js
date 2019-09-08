@@ -1,6 +1,7 @@
 import axios from 'axios';
 import {API_KEY} from '../config'
 import LocalStorageService from './LocalStorageService'
+import AlartService from './AlartService'
 
 export default {
     getFavoriteLocations,
@@ -47,8 +48,10 @@ async function addToFavorite(location) {
             LocalStorageService.save(WEATHER_INFO, weatherInfo),
             LocalStorageService.save(FAVORITE_LOCATION_INFO, favoriteLocations)
         ])
+        AlartService.handleAlarts( `${location.location.city} is Added to Favorites!`, 'success')
+
     } catch (err) {
-        throw err
+        AlartService.handleAlarts( `Failed to Add ${location.location.city} to Favorite`, 'error')
     }
 }
 
@@ -67,9 +70,10 @@ async function removeFromFavorite(locationName) {
         })
         
         await LocalStorageService.save(FAVORITE_LOCATION_INFO, favoriteLocations)
+        AlartService.handleAlarts( `${locationName} is Deleted from Favorites!`, 'success')
 
     } catch (err) {
-        throw err
+        AlartService.handleAlarts( `Failed to Delete${locationName} from Favorites`, 'error')
     }
 }
 
@@ -91,7 +95,7 @@ async function getLocationsSuggest(txt) {
             return {name: suggestion.LocalizedName, key: suggestion.Key} 
         })
     } catch (err) {
-        throw err
+        AlartService.handleAlarts( `Failed to get Location Suggest`, 'error')
     }
 }
 

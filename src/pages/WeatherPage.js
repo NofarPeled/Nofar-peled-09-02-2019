@@ -10,7 +10,7 @@ import SearchSuggestions from '../components/SearchSuggestions';
 //SERVICE
 import { getLocationsSuggestions, clearLocationsSuggestions} from '../store/actions/LocationsAction'
 import { getWeather } from '../store/actions/WeatherAction'
-import SweetAlert from 'sweetalert2-react';
+
 class WeatherPage extends Component {
 
     state = {

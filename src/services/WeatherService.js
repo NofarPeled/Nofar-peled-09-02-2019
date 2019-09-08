@@ -3,6 +3,8 @@ import {API_KEY} from '../config'
 import LocalStorageService from './LocalStorageService'
 import UtilService from './UtilService'
 import LocationService from './LocationService'
+import AlartService from './AlartService';
+
 export default {
     getLocationInfo,
     getCurrectWeather,
@@ -31,9 +33,9 @@ function getWeatherInfo( location ) {
 
 async function getLocationInfo(locationName) {
     try {
-        return await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}&q=${locationName.replace(/ /g,"%20")}`)
+        return await axios.get(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}&q=${locationName.replace(/ /g,"%20")}`)
     } catch (err) {
-        throw err
+        AlartService.handleAlarts( `Failed to get Details About ${locationName}`, 'error')
     }
 }
 
@@ -41,7 +43,7 @@ async function getCurrectWeather(locationKey) {
     try {
         return await axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${API_KEY}`)
     } catch (err) {
-        throw err
+        AlartService.handleAlarts( `Failed to get Weather Details`, 'error')
     }
 }
 
