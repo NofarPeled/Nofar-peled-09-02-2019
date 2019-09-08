@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css",
-    "main.js": "/Nofar-peled-09-02-2019/static/js/main.4f807766.chunk.js",
-    "main.js.map": "/Nofar-peled-09-02-2019/static/js/main.4f807766.chunk.js.map",
+    "main.js": "/Nofar-peled-09-02-2019/static/js/main.c7f7759c.chunk.js",
+    "main.js.map": "/Nofar-peled-09-02-2019/static/js/main.c7f7759c.chunk.js.map",
     "runtime~main.js": "/Nofar-peled-09-02-2019/static/js/runtime~main.ecdd918c.js",
     "runtime~main.js.map": "/Nofar-peled-09-02-2019/static/js/runtime~main.ecdd918c.js.map",
-    "static/js/2.cd526bfe.chunk.js": "/Nofar-peled-09-02-2019/static/js/2.cd526bfe.chunk.js",
-    "static/js/2.cd526bfe.chunk.js.map": "/Nofar-peled-09-02-2019/static/js/2.cd526bfe.chunk.js.map",
+    "static/js/2.9d180777.chunk.js": "/Nofar-peled-09-02-2019/static/js/2.9d180777.chunk.js",
+    "static/js/2.9d180777.chunk.js.map": "/Nofar-peled-09-02-2019/static/js/2.9d180777.chunk.js.map",
     "index.html": "/Nofar-peled-09-02-2019/index.html",
-    "precache-manifest.46c1ef7cbc51176e7c6973e9b0618ce7.js": "/Nofar-peled-09-02-2019/precache-manifest.46c1ef7cbc51176e7c6973e9b0618ce7.js",
+    "precache-manifest.fee982f6699d52b387057853383d9a36.js": "/Nofar-peled-09-02-2019/precache-manifest.fee982f6699d52b387057853383d9a36.js",
     "service-worker.js": "/Nofar-peled-09-02-2019/service-worker.js",
     "static/css/main.377cbac6.chunk.css.map": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css.map",
     "static/media/global.scss": "/Nofar-peled-09-02-2019/static/media/PoiretOne-Regular.c57e537a.ttf",
-    "static/media/favorite.svg": "/Nofar-peled-09-02-2019/static/media/favorite.40ec0999.svg",
     "static/media/logo.png": "/Nofar-peled-09-02-2019/static/media/logo.9a7115fb.png",
-    "static/media/not-favorite.svg": "/Nofar-peled-09-02-2019/static/media/not-favorite.977886e4.svg",
+    "static/media/not-favorite.png": "/Nofar-peled-09-02-2019/static/media/not-favorite.f3859e0e.png",
+    "static/media/preview-1wallpaper.png": "/Nofar-peled-09-02-2019/static/media/preview-1wallpaper.1379284c.png",
     "static/media/weather-page-wallpaper.jpg": "/Nofar-peled-09-02-2019/static/media/weather-page-wallpaper.e80ecd75.jpg"
   }
 }
