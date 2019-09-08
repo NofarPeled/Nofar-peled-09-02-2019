@@ -12,7 +12,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "redux": "^4.0.4",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "sweetalert2-react": "^0.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://NofarPeled.github.io/Nofar-peled-09-02-2019",
+  "homepage": "https://NofarPeled.github.io/Nofar-peled-09-02-2019",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
