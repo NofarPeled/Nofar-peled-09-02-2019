@@ -1,14 +1,9 @@
-//REACT
 import React from 'react';
-
-//COMPONET
-import WeatherPreview from './WeatherPreview'
+import WeatherPreview from './WeatherPreview';
 import { connect } from 'react-redux';
 
 const WeatherList = (props) => {
-
-    const { weather } = props
-
+    const { weather } = props;
     const weatherList = weather.forecast.map( day => {
         return (
             <li key = {day.date}>
@@ -20,7 +15,6 @@ const WeatherList = (props) => {
     })
 
     return (
-        
         <section className = "weather-list-cmp">
             <ul className = "clean-list flex">
                 { weatherList }
@@ -37,4 +31,4 @@ const mapStateToProps = ({WeatherReducer}) => {
     }
 }
   
-export default connect(mapStateToProps)(WeatherList)
+export default connect(mapStateToProps)(WeatherList);

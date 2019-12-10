@@ -1,28 +1,22 @@
-//REACT
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom'
-
-//ACTIONS
+import { Link } from 'react-router-dom';
 import { loadFavoriteLocations } from '../store/actions/LocationsAction';
-
-//COMPONENTS
-import LocationsList from '../components/LocationsList'
+import LocationsList from '../components/LocationsList';
 
 class FavoriteLocationsPage extends Component {
 
     async componentDidMount(){
-        this.getFavoriteLocations()
+        this.getFavoriteLocations();
     }
 
     getFavoriteLocations = async() => {
-        const { dispatch } = this.props
-        dispatch(loadFavoriteLocations())
+        const { dispatch } = this.props;
+        dispatch(loadFavoriteLocations());
     }
 
     render() {
-        const {favoriteLocations} = this.props
-
+        const {favoriteLocations} = this.props;
         return (
             <section className = "favorite-locations-page">
                 <div className = "favorite-locations-header flex">
@@ -51,4 +45,4 @@ const mapStateToProps = ({LocationReducer}) => {
     }
 }
   
-export default connect(mapStateToProps)(FavoriteLocationsPage)
+export default connect(mapStateToProps)(FavoriteLocationsPage);

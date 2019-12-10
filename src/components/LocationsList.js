@@ -1,10 +1,7 @@
-//REACT
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-
-//COMPONET
-import LocationPreview from './LocationPreview'
+import LocationPreview from './LocationPreview';
 
 const LocationList = (props) => {
     const locationsList = props.favoriteLocations.map(location => {
@@ -36,4 +33,4 @@ const mapStateToProps = ({LocationReducer}) => {
     }
 }
   
-export default connect(mapStateToProps)(LocationList)
+export default connect(mapStateToProps)(LocationList);

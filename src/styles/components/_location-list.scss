@@ -12,14 +12,8 @@
             margin-top: 7px;
             color: $color1;
             min-height: 100px;
-            margin-left: 5px;
-
-
-            @media(min-width: '700px') {
-                width: 17.5vh;
-                height: 17.5vh;
-                margin: 5px; 
-            }
+            padding: 10px;
+            border-radius: 3px;
 
             .preview-title {
                 font-family: $font2;

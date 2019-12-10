@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const SearchSuggestions = (props) => {
-    let { locationsSuggests } = props
+    let { locationsSuggests } = props;
     
     const locationList = (!locationsSuggests) ? <h3>Location isn't found!</h3> : locationsSuggests.map(location => {
         return (

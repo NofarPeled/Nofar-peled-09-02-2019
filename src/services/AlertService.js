@@ -1,10 +1,10 @@
-import Swal from 'sweetalert2'
-
+import Swal from 'sweetalert2';
 
 export default {
-    handleAlarts
+    handleAlerts,
 }
- function handleAlarts(title, type) {
+
+ function handleAlerts(title, type) {
     Swal.fire({
         type,
         title,

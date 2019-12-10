@@ -1,18 +1,13 @@
-//REACT
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 import { connect } from 'react-redux';
-
-//COMPONENT
-import WeatherList from './WeatherList'
-
-//ACTIONS
-import { addToFavorite, removeFromFavorite} from '../store/actions/LocationsAction'
+import WeatherList from './WeatherList';
+import { addToFavorite, removeFromFavorite} from '../store/actions/LocationsAction';
 
 class WeatherDetails extends Component {
     
     toggleFavorite = async () => {
-        const { weather, dispatch } = this.props
-        weather.isFavorite ? dispatch(removeFromFavorite(weather)) : dispatch(addToFavorite(weather))    
+        const { weather, dispatch } = this.props;
+        weather.isFavorite ? dispatch(removeFromFavorite(weather)) : dispatch(addToFavorite(weather));
     }
 
     render () {
@@ -44,4 +39,4 @@ const mapStateToProps = ({WeatherReducer}) => {
     }
 }
   
-export default connect(mapStateToProps)(WeatherDetails)
+export default connect(mapStateToProps)(WeatherDetails);

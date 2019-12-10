@@ -1,10 +1,9 @@
-//REACT
-import React from 'react'
+import React from 'react';
 import { connect } from 'react-redux';
 
 const LocationPreview = (props) => {
-    const {location} = props
-    const { isFahrenheit } = props
+    const {location} = props;
+    const { isFahrenheit } = props;
     
     return (
         <section className = "location-preview-cmp">

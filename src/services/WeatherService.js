@@ -3,7 +3,7 @@ import {API_KEY} from '../config'
 import LocalStorageService from './LocalStorageService'
 import UtilService from './UtilService'
 import LocationService from './LocationService'
-import AlartService from './AlartService';
+import AlertService from './AlertService';
 
 export default {
     getLocationInfo,
@@ -18,16 +18,19 @@ function getWeatherInfo( location ) {
     location = location || 'tel aviv'
 
     return new Promise( async(resolve, reject) => {
-        let locationInfo = await getLocationInfo(location);
-        
-        locationInfo = locationInfo.data[0]
-        const weatherInfo = await getCurrectWeather(locationInfo.Key);
-        
-        const newLocationInfo = _createNewLocationObj(weatherInfo, locationInfo)
-        newLocationInfo.isFavorite = await LocationService.isFavoriteLocation(newLocationInfo.location.city)
-
-        await LocalStorageService.save(WEATHER_INFO, newLocationInfo)
-        resolve(newLocationInfo) 
+        try {
+            let locationInfo = await getLocationInfo(location);
+            locationInfo = locationInfo.data[0] 
+            const weatherInfo = await getCurrectWeather(locationInfo.Key);
+            
+            const newLocationInfo = _createNewLocationObj(weatherInfo, locationInfo)
+            newLocationInfo.isFavorite = await LocationService.isFavoriteLocation(newLocationInfo.location.city)
+    
+            await LocalStorageService.save(WEATHER_INFO, newLocationInfo)
+            resolve(newLocationInfo) 
+        } catch (err) {
+            AlertService.handleAlerts( `Failed to get Details About Location`, 'error')
+        }
     })
 }
 
@@ -35,7 +38,7 @@ async function getLocationInfo(locationName) {
     try {
         return await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}&q=${locationName.replace(/ /g,"%20")}`)
     } catch (err) {
-        AlartService.handleAlarts( `Failed to get Details About ${locationName}`, 'error')
+        throw err
     }
 }
 
@@ -43,7 +46,7 @@ async function getCurrectWeather(locationKey) {
     try {
         return await axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${API_KEY}`)
     } catch (err) {
-        AlartService.handleAlarts( `Failed to get Weather Details`, 'error')
+        throw err
     }
 }
 

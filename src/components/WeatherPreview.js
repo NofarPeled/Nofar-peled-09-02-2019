@@ -1,11 +1,9 @@
-//REACT
 import React from 'react';
 import { connect } from 'react-redux';
 
 const WeatherPreview = (props) => {
-    
-    const { currWeather } = props
-    const {isFahrenheit} = props
+    const { currWeather } = props;
+    const {isFahrenheit} = props;
 
     return (
         <section className = "weather-preview-cmp">
@@ -36,4 +34,4 @@ const mapStateToProps = ({WeatherReducer}) => {
     }
 }
   
-export default connect(mapStateToProps)(WeatherPreview)
+export default connect(mapStateToProps)(WeatherPreview);

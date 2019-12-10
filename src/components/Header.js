@@ -1,20 +1,17 @@
-//REACT
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {NavLink} from 'react-router-dom';
-
-//ACTION
-import { toggleIsFahrenheit } from '../store/actions/WeatherAction'
+import { toggleIsFahrenheit } from '../store/actions/WeatherAction';
 
 class Header extends Component {
 
     toggleIsFahrenheit = async () => {
-        const { dispatch } = this.props
-        dispatch(toggleIsFahrenheit())
+        const { dispatch } = this.props;
+        dispatch(toggleIsFahrenheit());
     } 
 
     render () {
-        const { isFahrenheit } = this.props
+        const { isFahrenheit } = this.props;
         return (
             <section className = "header-cmp flex">
                 <div className = "right-div flex">

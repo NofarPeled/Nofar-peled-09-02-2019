@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const LocationFilter = (props) => {
     return (
@@ -6,7 +6,7 @@ const LocationFilter = (props) => {
             <form>
                 <input
                     type = "text"
-                    onChange = {props.onFilter}
+                    onChange = { props.onFilter }
                     placeholder = "Tel Aviv"
                 />
                 <button onClick = {props.searchLocation}>Search</button>
