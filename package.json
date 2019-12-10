@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nofarpeled.github.io/Weather-App/",
+  "homepage": "https://nofarpeled.github.io/Weather-App",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
