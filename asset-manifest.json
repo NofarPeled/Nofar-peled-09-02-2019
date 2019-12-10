@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css",
-    "main.js": "/Nofar-peled-09-02-2019/static/js/main.0cfb084e.chunk.js",
-    "main.js.map": "/Nofar-peled-09-02-2019/static/js/main.0cfb084e.chunk.js.map",
-    "runtime~main.js": "/Nofar-peled-09-02-2019/static/js/runtime~main.ecdd918c.js",
-    "runtime~main.js.map": "/Nofar-peled-09-02-2019/static/js/runtime~main.ecdd918c.js.map",
-    "static/js/2.9d180777.chunk.js": "/Nofar-peled-09-02-2019/static/js/2.9d180777.chunk.js",
-    "static/js/2.9d180777.chunk.js.map": "/Nofar-peled-09-02-2019/static/js/2.9d180777.chunk.js.map",
-    "index.html": "/Nofar-peled-09-02-2019/index.html",
-    "precache-manifest.f52a76b3b2bb0bfb0eb68cb3b6983127.js": "/Nofar-peled-09-02-2019/precache-manifest.f52a76b3b2bb0bfb0eb68cb3b6983127.js",
-    "service-worker.js": "/Nofar-peled-09-02-2019/service-worker.js",
-    "static/css/main.377cbac6.chunk.css.map": "/Nofar-peled-09-02-2019/static/css/main.377cbac6.chunk.css.map",
-    "static/media/global.scss": "/Nofar-peled-09-02-2019/static/media/PoiretOne-Regular.c57e537a.ttf",
-    "static/media/logo.png": "/Nofar-peled-09-02-2019/static/media/logo.9a7115fb.png",
-    "static/media/not-favorite.png": "/Nofar-peled-09-02-2019/static/media/not-favorite.f3859e0e.png",
-    "static/media/preview-1wallpaper.png": "/Nofar-peled-09-02-2019/static/media/preview-1wallpaper.1379284c.png",
-    "static/media/weather-page-wallpaper.jpg": "/Nofar-peled-09-02-2019/static/media/weather-page-wallpaper.e80ecd75.jpg"
+    "main.css": "/Weather-App/static/css/main.243e14df.chunk.css",
+    "main.js": "/Weather-App/static/js/main.3c5ba060.chunk.js",
+    "main.js.map": "/Weather-App/static/js/main.3c5ba060.chunk.js.map",
+    "runtime~main.js": "/Weather-App/static/js/runtime~main.27c19340.js",
+    "runtime~main.js.map": "/Weather-App/static/js/runtime~main.27c19340.js.map",
+    "static/js/2.9d180777.chunk.js": "/Weather-App/static/js/2.9d180777.chunk.js",
+    "static/js/2.9d180777.chunk.js.map": "/Weather-App/static/js/2.9d180777.chunk.js.map",
+    "index.html": "/Weather-App/index.html",
+    "precache-manifest.8084a4a659c014399f5efc86796f17fa.js": "/Weather-App/precache-manifest.8084a4a659c014399f5efc86796f17fa.js",
+    "service-worker.js": "/Weather-App/service-worker.js",
+    "static/css/main.243e14df.chunk.css.map": "/Weather-App/static/css/main.243e14df.chunk.css.map",
+    "static/media/global.scss": "/Weather-App/static/media/PoiretOne-Regular.c57e537a.ttf",
+    "static/media/logo.png": "/Weather-App/static/media/logo.9a7115fb.png",
+    "static/media/not-favorite.png": "/Weather-App/static/media/not-favorite.f3859e0e.png",
+    "static/media/preview-1wallpaper.png": "/Weather-App/static/media/preview-1wallpaper.1379284c.png",
+    "static/media/weather-page-wallpaper.jpg": "/Weather-App/static/media/weather-page-wallpaper.e80ecd75.jpg"
   }
 }
